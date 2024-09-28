@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the pre-trained model
-model = pickle.load(open(r"C:\Users\jathi\Streamlit\best_logistic_regression_model.pkl","rb"))
+model = pickle.load(open(r"best_logistic_regression_model.pkl","rb"))
 
 # Streamlit App
 st.title("Egypt Education Dataset Prediction")
